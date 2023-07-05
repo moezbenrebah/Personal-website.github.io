@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<link rel="stylesheet" href="normalize.css">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Moez Portfolio Website</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Slab:400,700&display=swap" rel="stylesheet"> 
+			<!-- Style file -->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<!-- Navbar -->
+		<header>
+			<div class="logo">
+				<img src="" alt="">
+			</div>
+			<button class="nav-toggle" aria-label="toggle navigation">
+				<span class="hamburger"></span>
+			</button>
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+					<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+					<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+					<li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+					<li class="nav__item"><a href="#meetMeHere" class="nav__link">Meet me here</a></li>
+				</ul>
+			</nav>
+		</header>
+		<!-- Introduction -->
+		<section class="intro" id="home">
+			<h1 class="section__title section__title--intro">
+				Hi, I'm <strong>Moez Ben Rebah</strong>
+			</h1>
+			<p class="section__subtitle section__subtitle--intro">Software developer</p>
+			<img src="img/moez-profile.jpg" alt="a picture of Moez smiling" class="intro__img">
+		</section>
+		<!-- My services -->
+		<section class="my-services" id="services">
+			<h2 class="section__title section__title--services">What I do</h2>
+			<div class="services">
+				<div class="service">
+					<h3>frontend</h3>
+					<p>Have a rich experience with valuable projects built with HTML, CSS, JavaScript, Bootstrap, JQuery, SCSS, ANGULAR, REACT</p>
+				</div>
+				<!-- service -->
+				<div class="service">
+					<h3>Backend</h3>
+					<p>Built server side projects as backend developer, using Python, Flask, NodeJs, Express, MySql, MongoDB, Redis</p>
+				</div>
+				<!-- service -->
+				<div class="service">
+					<h3>Shell DevOps</h3>
+					<p>Proeficient with shell commands line, permissions, redirections & filters, process and signals</p>
+				</div>
+				<!-- service -->
+				<div class="service">
+					<h3>Networking</h3>
+					<p>Have a solid knowledge in networking such as web servers, load balancers, HTTPS SSL, Monitoring, SSH, Firewall</p>
+				</div> <!-- / service -->
+			</div> <!-- / services -->
+			<a href="#projects" class="btn">Projects</a>
+		</section>
+		<!-- About me -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">Software developer</p>
+			<div class="about-me__body">
+				<p>Software developer with 2 years of valuable experience in Computer Science, and specialized in web development. Proven problem solving and critical thinking after 2 years of hard work and hands-on projects. I believe that a developer is a lifetime learner, and I always expand my knowledge in Computer Science.</p>
+				<p>I'm an aspiring full-stack developer, focused on web development on both sides. Skilled in JavaScript, Python, and SQL & NoSQL Databases which allows me to build software, websites, and games. During my studies, I experienced the Servers, DNS, Firewall, SSL, Loadbalancer, Monitoring ... Things that give me a better knowledge how things work behind the scenes and give more energy to learn more about it.</p>
+				<div>
+					<a href="resume.html" class="btn">Resume</a>
+				</div>
+			</div>
+			<img src="img/Moez-Pic.jpg" alt="Moez leaning against a bus" class="about-me__img">
+		</section>
+		
+		<!-- My Projects -->
+		<section class="my-projects" id="projects">
+			<h2 class="section__title section__title--projects">My Projects</h2>
+			<p class="section__subtitle section__subtitle--projects">A selection of my range of projects</p>
+			<div class="portfolio">
+				<!-- Portfolio item 01 -->
+				<a href="airbnb.html" class="portfolio__item">
+					<img src="img/Airbnb.png" alt="" class="portfolio__img">
+				</a>
+				<!-- Portfolio item 02 -->
+				<a href="smiling_school.html" class="portfolio__item">
+					<img src="img/smile-school.png" alt="" class="portfolio__img">
+				</a>
+				<!-- Portfolio item 03 -->
+				<a href="space_survivor.html" class="portfolio__item">
+					<img src="img/space_survivor-wallpaper.jpg" alt="" class="portfolio__img">
+				</a>
+				<!-- Portfolio item 04 -->
+				<a href="goaheadtravel.html" class="portfolio__item">
+					<img src="img/goaheadtravel.jpg" alt="" class="portfolio__img">
+				</a>
+			</div>
+			<div>
+				<a href="https://github.com/moezbenrebah" target="_blank" class="btn btn-github">More prjects...</a>
+			</div>
+		</section>
+		<!-- Footer -->
+		<footer class="footer" id="meetMeHere">
+			<!-- replace with your own email address -->
+			<a href="mailto:benrebah.moez@gmail.com" class="footer__link">benrebah.moez@gmail.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://codepen.io/Boul3ez" target="_blank">
+						<i class="fab fa-codepen"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://twitter.com/benrebahmoez1" target="_blank">
+						<i class="fab fa-twitter"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://www.linkedin.com/in/moezbenrebah/" target="_blank">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://github.com/moezbenrebah" target="_blank">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+			</ul>
+		</footer>
+		<!-- Scroll to top button -->
+		<button class="scrollToTopBtn" title="Go to top"><i class="fas fa-chevron-up"></i></button>
+
+		<!-- script Javascript -->
+		<script src="js/index.js"></script>
+	</body>
+</html>
